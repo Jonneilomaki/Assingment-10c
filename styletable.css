@@ -1,0 +1,82 @@
+
+  #Tiedot {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-collapse: collapse;
+    width: 30%;
+  }
+  
+  #Tiedot td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #Tiedot tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #Tiedot tr:hover {background-color: #ddd;}
+  
+  #Tiedot th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0704aa;
+    color: rgb(169, 170, 102);
+  }
+
+
+caption {
+    font-size: 45px;
+}
+
+textarea{
+    width: 50%;
+}
+
+form{
+    font-size: 24px;
+    padding-top: 10px;
+    padding-right: 25px;
+
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  input[type=email], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  input[type=submit] {
+    width: 50%;
+    background-color: #0704aa;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #535081;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
